@@ -30,7 +30,7 @@ from launch.substitutions import LaunchConfiguration, Command, EnvironmentVariab
 def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='True')
     world = os.path.join(get_package_share_directory('dingo_gazebo'),
-                         'worlds', 'empty.world')
+                         'worlds', 'cafe.world')
 
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
